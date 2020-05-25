@@ -16,3 +16,11 @@ const sum2 = (a, b, ...rest) => {
 console.log(5, 5, 2, 3, 3)
 
 //spread operator
+const string = 'Digite alguma coisa'
+
+const logArgs(...args)
+{
+    console.log(args)
+}
+
+logArgs(...str)
